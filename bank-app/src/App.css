@@ -1,0 +1,67 @@
+
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#h-menu {
+    background: white;
+  }
+  #nav-edit {
+    color: white;
+    font-weight: bold;
+  }
+  
+  #nav-edit:hover {
+    color: #FFDA00;
+  }
+  
+  #nav-edit-color {
+    background-color: black;
+  }
+  
+  #hero{
+    background-color: #FFDA00;
+    height: 60vh;
+  }
+
+  #hero-btn{
+    background-color: white;
+    color: black;
+
+  
+    transition: 1s background-color;
+  }
+
+  #hero-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+  input[type="text"]:focus, #accountType:focus, input[type="number"]:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #contactForm{
+    max-width: 30rem;
+    background-color: #FFDA00;
+  }
+  #footer{
+    background-color: #ffffff;
+  }
+
+  #footer-edit{
+    color: black;
+    font-weight: 800;
+  }
+
+  #card-text-color{
+    color: #FFDA00;
+  }
