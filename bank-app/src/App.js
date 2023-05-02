@@ -11,11 +11,7 @@ function App() {
   return (
 
       <>
-       <BrowserRouter>
-       <Routes>
-          <Route path="/" element={<Home />} ></Route>
-       </Routes>
-       </BrowserRouter>
+       <Home/>
       </>
 
   );
